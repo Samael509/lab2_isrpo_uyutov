@@ -1,9 +1,13 @@
-﻿namespace Program;
+﻿using System.Diagnostics;
+
+namespace Program;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("enter ur name");
+        string? name = Console.ReadLine();
+        Console.WriteLine($"hellom {name}");
     }
 }
