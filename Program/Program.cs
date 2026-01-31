@@ -8,7 +8,7 @@ class Program
     {
         Console.WriteLine("enter ur name");
         string? name = Console.ReadLine();
-        Console.WriteLine($"hellom {name}");
+        Console.WriteLine($"hello {name}");
         Console.WriteLine("wassup");
     }
 }
